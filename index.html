@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <title>jsIncrementalSearch</title>
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-  </head>
-  <body>
-    <h1>jsIncrementalSearch</h1>
-    <form name="f1">
-      <input type="text" />
-    </form>
-  </body>
+<head>
+  <title>jsIncrementalSearch</title>
+  <script src="jquery-2.1.1.min.js"></script>
+  <script src="IncrementalSearch.js"></script>
+<script>
+<!--
+$(window).load(function() {
+	init();
+
+	function init() {
+		var tree = new Tree();
+		tree.add('Peter Harms');
+		tree.add('Peter Danner');
+		tree.dbg();
+	}
+});
+-->
+</script>
+</head>
+
+<body>
+	<h1>jsIncrementalSearch</h1>
+<form name="foo">
+	<input type="text" name="bar" id="foobar" />
+</form>
+</body>
+
 </html>
